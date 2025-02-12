@@ -1,0 +1,53 @@
+/* -------------------------------------TELAS MENOR 450 Pixels----------------------------------------- */
+
+@media (max-width: 450px) {
+
+/* --------------------------------------------PAGINA 2------------------------------------------------ */  
+
+    /* BARRA DE NAVEGAÇÃO */
+     .nav {
+        display: block;
+        margin-top: 20px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------- */    
+
+    /* TITULO */
+     .header-logo {
+        font-size: 11px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+     .header-logo a {
+        text-decoration: none;
+    }
+
+/* ---------------------------------------------------------------------------------------------------- */  
+
+    /* PRODUTOS */
+     .gp1 {
+        display: block;
+        margin-left: 100px;
+    }
+
+    .gp2 {
+        display: block;
+        margin-left: 100px;
+        margin-top: 2px;
+    }
+
+    .produtos1 {
+        height: auto;
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .produtos2 {
+        height: auto;
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+}

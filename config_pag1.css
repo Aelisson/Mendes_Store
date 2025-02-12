@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", serif; /* FONTE DO DOCUMENTO */
+}
+
+/* -----------------------------------------COR DE FUNDO---------------------------------------------- */
+
+body{
+    background: linear-gradient(240deg, #36075e, #09071b);
+    height: 100vh;
+    text-align: left;
+    padding: 10px;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------TITULO MENDES STORE----------------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------BARRA DE NAVEGAÇÃO--------------------------------------------- */
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 5vh;
+}
+
+.nav>li>a {
+    margin-left: 0px;
+    transition: 0.2 ease-in-out;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: inline;
+}
+
+.nav>li>a:hover {
+    color: #ad00c4;
+    cursor: pointer;
+    transition: 0.2 ease-in-out;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------IMAGEM PRINCIPAL----------------------------------------------- */
+
+.logo_principal {
+    height: 300px;
+    width: auto;
+    margin-right: 80px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------TEXTOS--------------------------------------------------------- */
+
+.MSG {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 80vh;
+}
+
+.MSG h1 {
+    height: 20vh;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.MSG h1 span {
+    color: #e560ff;
+    font-size: 40px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 22px;
+}
+
+.p2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20vh;
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------BOTÂO---------------------------------------------------------- */
+
+.ct_btn {
+    background-color: #09071b00;
+    border: #6f00ff 1px solid;
+    border-radius: 4px;
+    color: #6f00ff;
+    width: 100px;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+    margin-left: 55vh;
+    margin-top: 20px;
+}
+
+.ct_btn:hover {
+    cursor: pointer;
+    background-color: #ad00c4;
+    color: white
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+    
+    
+}

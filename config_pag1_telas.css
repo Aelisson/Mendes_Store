@@ -1,0 +1,77 @@
+/* -------------------------------------TELAS MENOR 450 Pixels----------------------------------------- */
+
+@media (max-width: 450px) {
+
+    /* --------------------------------------------PAGINA 1 ------------------------------------------------ */  
+    
+        /* Barra de navegação */
+        .nav {
+            display: block;
+            margin-top: 20px;
+        }  
+    
+    /* ---------------------------------------------------------------------------------------------------- */
+    
+        /* Título */
+        .header-logo {
+            font-size: 11px;
+            margin-left: 0px;
+            margin-top: 0;
+        }
+    
+    /* ---------------------------------------------------------------------------------------------------- */
+    
+        /* Layout das mensagens */
+        .MSG {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .MSG h1 {
+            font-size: 18px;
+            margin: 20px 0;
+            margin-top: 40px
+        }
+    
+        .MSG h1 span {
+            font-size: 20px;
+            color: #e560ff;
+        }
+    
+    /* Ajustar textos */
+        .p1 {
+            margin-top: -80px;
+            font-size: 12px;
+            text-align: center;
+        }
+        
+         .p2, .p3 {
+            font-size: 12px;
+            margin: 5px 0;
+            text-align: center;
+        }
+    
+    /* ---------------------------------------------------------------------------------------------------- */
+    
+        /* Imagem Principal */
+        .logo_principal {
+            height: 120px;
+            margin: 0 auto;
+            display: block;
+        }
+    
+    /* ---------------------------------------------------------------------------------------------------- */
+    
+        /* Botão */
+        .ct_btn {
+            margin: 20px auto;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+        }
+    
+    /* ---------------------------------------------------------------------------------------------------- */  
+
+}
